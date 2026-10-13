@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact | Kelvin Huang</title>
+    <meta name="description" content="Contact Kelvin Huang">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="contact_body">
+
+    <header>
+        <div class="header_name">
+            KELVIN HUANG
+        </div>
+
+        <nav class="header_text">
+            <a href="index.html">About</a>
+            <a href="index.html#timeline">Timeline</a>
+            <a href="projects.html">Projects</a>
+            <a href="https://github.com/Wildtypers" target="_blank">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/kelvin-huang-7a6068315/?isSelfProfile=true" target="_blank">LinkedIn ↗</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="contact_page">
+
+        <section class="contact_intro">
+
+            <p class="contact_label">
+                05 / CONTACT
+            </p>
+
+            <h1>
+                Good questions<br>
+                start conversations.
+            </h1>
+
+            <p class="contact_description">
+                Have an idea about machine learning, mathematics,
+                or what comes next? Let's talk. Share a little
+                about what you have in mind using the form.
+            </p>
+
+            <div class="contact_email">
+
+                <p>PREFER EMAIL?</p>
+
+                <a href="mailto:kelvin.huang@berkeley.edu">
+                    kelvin.huang@berkeley.edu
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <section class="contact_form_section">
+
+            <form class="contact_form">
+
+                <div class="contact_form_row">
+
+                    <div class="contact_field">
+                        <label for="contact_name">Name</label>
+
+                        <input
+                            type="text"
+                            id="contact_name"
+                            name="name"
+                            placeholder="Your name"
+                            required
+                        >
+                    </div>
+
+                    <div class="contact_field">
+                        <label for="contact_email">Email</label>
+
+                        <input
+                            type="email"
+                            id="contact_email"
+                            name="email"
+                            placeholder="you@example.com"
+                            required
+                        >
+                    </div>
+
+                </div>
+
+
+                <div class="contact_field">
+
+                    <label for="inquiry_type">
+                        Inquiry type
+                    </label>
+
+                    <select id="inquiry_type" name="inquiry" required>
+
+                        <option value="" disabled selected>
+                            Select an inquiry type
+                        </option>
+
+                        <option value="research">
+                            Research collaboration
+                        </option>
+
+                        <option value="project">
+                            Project inquiry
+                        </option>
+
+                        <option value="opportunity">
+                            Internship / Opportunity
+                        </option>
+
+                        <option value="general">
+                            General question
+                        </option>
+
+                        <option value="other">
+                            Other
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="contact_field">
+
+                    <label for="contact_message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="contact_message"
+                        name="message"
+                        placeholder="Tell me a little about your idea or question..."
+                        rows="7"
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <button type="submit" class="contact_submit">
+                    Send message
+                    <span>↗</span>
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+</body>
+</html>

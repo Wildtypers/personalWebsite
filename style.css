@@ -432,3 +432,168 @@ header{
     line-height: 1.6;
     margin: 0;
 }
+
+/* Contact Page */
+
+
+/* CONTACT PAGE */
+
+.contact_body {
+    background: #0f202c;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact_page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+
+    padding: 70px 5%;
+    min-height: 75vh;
+}
+
+/* LEFT SIDE */
+
+.contact_label {
+    color: #8edff1;
+    font-family: "Orbitron", sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.contact_intro h1 {
+    font-size: clamp(36px, 4vw, 52px);
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+.contact_description {
+    color: #adbac6;
+    font-size: 16px;
+    line-height: 1.65;
+    max-width: 420px;
+}
+
+/* EMAIL LINK */
+
+.contact_email {
+    margin-top: 45px;
+}
+
+.contact_email p {
+    color: #8fa3b3;
+    font-family: "Orbitron", sans-serif;
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+
+.contact_email a {
+    display: inline-flex;
+    align-items: center;
+    gap: 25px;
+
+    color: #8edff1;
+    font-size: 22px;
+
+    padding-bottom: 10px;
+    border-bottom: 1px solid #8edff1;
+}
+
+.contact_email a:hover {
+    color: white;
+}
+
+/* RIGHT SIDE - FORM */
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact_form_row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+}
+
+.contact_field {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact_field label {
+    color: white;
+    font-size: 13px;
+}
+
+.contact_field input,
+.contact_field select,
+.contact_field textarea {
+    width: 100%;
+
+    background: #172b39;
+    color: white;
+
+    border: 1px solid #344958;
+    border-radius: 4px;
+
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.contact_field textarea {
+    resize: vertical;
+    min-height: 165px;
+}
+
+.contact_field input::placeholder,
+.contact_field textarea::placeholder {
+    color: #8fa3b3;
+}
+
+.contact_field input:focus,
+.contact_field select:focus,
+.contact_field textarea:focus {
+    outline: none;
+    border-color: #8edff1;
+}
+
+.contact_field select {
+    cursor: pointer;
+}
+
+/* SUBMIT BUTTON */
+
+.contact_submit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+
+    width: fit-content;
+    padding: 15px 20px;
+
+    background: #8edff1;
+    color: #10202d;
+
+    border: none;
+    border-radius: 4px;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.contact_submit:hover {
+    background: #b6f1fb;
+    transform: translateY(-2px);
+}

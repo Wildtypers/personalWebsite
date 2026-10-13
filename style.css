@@ -10,7 +10,7 @@ a {
 body {
     background: #0f202c;
     color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -288,11 +288,95 @@ header{
     top: -3px;
 }
 
+/* HOBBIES SECTION */
+
+.hobbies_section {
+    background: #f5f8fa;
+    color: #172532;
+    padding: 70px 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HOBBIES HEADER */
+
+.hobbies_header {
+    display: grid;
+    grid-template-columns: 1.3fr 0.7fr;
+    gap: 60px;
+    align-items: end;
+    margin-bottom: 35px;
+}
+
+.hobbies_heading > p {
+    color: #087b9b;
+    font-family: "Orbitron", sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.hobbies_heading h2 {
+    font-size: clamp(36px, 4vw, 48px);
+    font-weight: 400;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+.hobbies_description {
+    color: #607180;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 400px;
+    margin: 0;
+    text-align: right;
+    margin-left: auto;
+}
+
+/* HOBBIES LIST */
+
+.hobbies_list {
+    display: flex;
+    flex-direction: column;
+}
+
+.hobby_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 16px;
+    border-top: 1px solid #d5dfe5;
+}
+
+.hobby_row:last-child {
+    border-bottom: 1px solid #d5dfe5;
+}
+
+.hobby_row p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.hobby_row span {
+    color: #607180;
+    font-family: "Orbitron", sans-serif;
+    font-size: 10px;
+    text-align: right;
+}
+
+/* HOBBIES FOOTER */
+
+.hobbies_footer {
+    color: #607180;
+    font-family: "Orbitron", sans-serif;
+    font-size: 10px;
+    margin-top: 35px;
+}
+
 /* PROJECT PAGE */
 .projects_body {
     background: #f5f8fa;
     color: #172532;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .projects_body .projects_page {
